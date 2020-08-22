@@ -174,7 +174,8 @@ body {
 
 .project-image {
     border-radius: 6px;
-    width: 40%;
+    width: 350px;
+    margin-right: 50px;
 }
 
 .project-text {
@@ -400,6 +401,7 @@ body {
     }
     .project-image {
         margin-bottom: 46px;
+        width: 330px;
     }      
     
     .contacts-block {
@@ -437,6 +439,15 @@ body {
     .hero-title {
         font-size: 24px;
         line-height: 28px;
+    }
+
+    .project-image {
+        width: 288px;
+    }
+
+    .hero-diskription {
+        font-size: 14px;
+        line-height: 140%;
     }
 
     .hero-header {
@@ -511,6 +522,12 @@ body {
 
     .hero {
         padding-bottom: 100px;
+        padding-top: 40px;
+    }
+
+    .section-title {
+        margin-bottom: 48px;
+    }
 }
 
 @media (max-width: 450px) {
