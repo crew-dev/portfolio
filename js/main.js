@@ -1,6 +1,6 @@
   AOS.init({
     disable: function() {
-      var maxWidth = 1068;
+      var maxWidth = 768;
       return window.innerWidth < maxWidth;
     }
   });
