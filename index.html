@@ -33,8 +33,8 @@
                     <p class="hero-diskription" aos-init aos-animate" data-aos="fade-left" data-aos-delay="650">
                         Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн
                         и верстку небольшого сайта или Landing page</p>
-                    <button class="button button-hero" aos-init aos-animate" data-aos="fade-left"
-                        data-aos-delay="850">ПОСМОТРЕТЬ ПОРТФОЛИО</button>
+                    <a href="#portfolio"><button class="button button-hero" data-target="link" aos-init aos-animate" data-aos="fade-left"
+                        data-aos-delay="850">ПОСМОТРЕТЬ ПОРТФОЛИО</button></a> 
                 </div>
                 <div class="hero-avatar" aos-init aos-animate" data-aos="fade" data-aos-delay="800"></div>
             </div>
@@ -99,7 +99,7 @@
         </section>
         <!-- /.features -->
 
-    <section class="section projects">
+    <section class="section projects" id="portfolio">
         <div class="container">
             <h2 class="section-title" id="projects" aos-init aos-animate" data-aos="fade-left" data-aos-delay="250">Последние проекты</h2>
             <div class="swiper-container projects-slider">
@@ -221,6 +221,8 @@
         </div>
         </div>
     </footer>
+    <!-- Подключаем Jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <!-- Подключаем JS -->
     <script src="js/aos.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
