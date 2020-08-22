@@ -184,12 +184,34 @@ body {
     flex-wrap: wrap;
 }
 
+a.project-link {
+    text-decoration-line: none;
+    color: #fff;
+    transition: ease 0.3s;
+}
+
+a.project-link::after {
+    background-color: #FFBB01;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    -webkit-transition: width .2s ease-in-out;
+    -moz--transition: width .2s ease-in-out;
+    transition: width 0.2s ease-in-out;
+}
+
+a.project-link:hover:after,
+a.project-link:focus:after {
+    width: 100%;
+}
+
+
 .project-title {
     flex-basis: 100%;
     font-size: 23px;
     line-height: 28px;
     font-weight: bold;
-    margin-bottom: 41px;
 }
 
 .project-time, .project-cost {
@@ -243,6 +265,7 @@ body {
 
 .project-time, .project-cost {
     margin-bottom: 44px;
+    margin-top: 41px;
 }
 
 
@@ -451,7 +474,7 @@ body {
     }
 
     .hero-header {
-        margin-bottom: 43px;
+        margin-bottom: 38px;
     }
 
     .social-link {
@@ -513,12 +536,11 @@ body {
     }
 
     .button {
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .features-item {
         margin-bottom: 30px;
-        margin-left: 20px;
     }
 
     .hero {
