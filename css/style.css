@@ -14,7 +14,7 @@ body {
 textarea {
    resize: vertical;
    max-height: 300px;
-   min-height: 80px;
+   min-height: 100px;
 }
 
 .hero {
@@ -26,7 +26,7 @@ textarea {
 .container {
     margin: auto;
     width: 90%;
-    max-width: 945px;
+    max-width: 1000px;
 }
 
 .section {
@@ -119,8 +119,11 @@ textarea {
 }
 
 
-.button:hover {
+.button:hover,
+.button:focus {
     background: linear-gradient(180deg,  #FFBB01 0%, #FDDE76 100%);
+    border: none;
+    outline: none;
 }
 
 .hero-avatar {
@@ -180,8 +183,8 @@ textarea {
 
 .project-image {
     border-radius: 6px;
-    width: 350px;
-    margin-right: 50px;
+    width: 380px;
+    margin-right: 60px;
 }
 
 .project-text {
@@ -280,7 +283,7 @@ a.project-link:focus:after {
     background: #fff;
     box-shadow: -5px 5px 0px #FFC41D;
     border-radius: 5px;
-    max-width: 380px;
+    max-width: 395px;
     padding: 40px 48px 49px;
 }
 
@@ -296,7 +299,7 @@ a.project-link:focus:after {
     background: #F8F8F8;
     box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
     border-radius: 5px;
-    padding: 18px 20px;
+    padding: 15px 20px;
     border: none;
     outline: none;
     width: 100%;
@@ -314,6 +317,12 @@ a.project-link:focus:after {
     background-position: center left 20px;
 }
 
+.input-textarea {
+    margin-bottom: 17px;
+    background-repeat: no-repeat;
+    background-position: center left 20px;
+}
+
 .input-name {
     margin-bottom: 17px;
     background-image: url('../img/user-icon.svg');
@@ -321,7 +330,9 @@ a.project-link:focus:after {
     background-position: center left 20px;
 }
 
+
 .input-name:focus,
+.input-textarea:focus,
 .input-phone:focus,
 .input-email:focus {
     border: 3px solid #FFC41D;
@@ -390,7 +401,7 @@ a.project-link:focus:after {
 
 
 /* responsive */
-@media  (max-width: 1100px) {
+@media (max-width: 1100px) {
     .hero-avatar {
         width: 300px;
         height: 300px;
@@ -399,7 +410,7 @@ a.project-link:focus:after {
     }
 }
 
-@media  (max-width: 836px) {
+@media (max-width: 836px) {
     .hero-content {
         flex-direction: column;
     }
@@ -439,7 +450,7 @@ a.project-link:focus:after {
     }
     .project-image {
         margin-bottom: 46px;
-        width: 330px;
+        width: 430px;
     }      
     
     .contacts-block {
@@ -480,7 +491,7 @@ a.project-link:focus:after {
     }
 
     .project-image {
-        width: 288px;
+        width: 100%;
     }
 
     .hero-diskription {
