@@ -273,8 +273,11 @@ a.project-link:focus:after {
   }
 
 .project-time, .project-cost {
-    margin-bottom: 44px;
     margin-top: 41px;
+}
+
+.project-cost {
+    margin-bottom: 44px;
 }
 
 
