@@ -332,12 +332,11 @@ a.project-link:focus:after {
     background-position: center left 20px;
 }
 
-
 .input-name:focus,
 .input-textarea:focus,
 .input-phone:focus,
 .input-email:focus {
-    border: 3px solid #FFC41D;
+    border: 2.1px solid #FFBB01;
 }
 
 .input-phone {
