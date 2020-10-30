@@ -434,7 +434,7 @@ a.project-link:focus:after {
         width: 270px;
         height: 270px;
         border-width: 10px;
-        background-position: center top -50px;
+        background-position: center top -25px;
         margin-bottom: 17px;
     }
 
