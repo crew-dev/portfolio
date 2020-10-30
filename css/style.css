@@ -130,8 +130,8 @@ textarea {
     width: 389px;
     height: 389px;
     background-color: #fff;
-    background-image: url(../img/wr7KJt2KiEk.jpg);
-    background-position: center top -70px;
+    background-image: url(../img/avatar.jpeg);
+		background-position: center -45px;
     background-repeat: no-repeat;
     background-size: 100%;
     border-radius: 50%;
@@ -292,7 +292,8 @@ a.project-link:focus:after {
 
 .form-title {
     color: #000;
-    font-size: 18px;
+		font-size: 18px;
+		max-width: 290px;
     line-height: 28px;
     text-align: center;
     margin-bottom: 29px;
