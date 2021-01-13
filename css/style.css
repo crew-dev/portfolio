@@ -38,6 +38,10 @@ textarea {
     margin-left: 20px;
 }
 
+.social-link:hover {
+	background-image: url(/img/social/github.svg);
+}
+
 .social-link:first-child{
     margin-left: 0px;
 }
