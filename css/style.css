@@ -291,7 +291,7 @@ a.project-link:focus:after {
 
 .contacts-form {
 	background: #fff;
-	box-shadow: -5px 5px 0;
+	box-shadow: -5px 5px 0 #ffc41d;
 	border-radius: 5px;
 	max-width: 395px;
 	padding: 40px 48px 49px;
