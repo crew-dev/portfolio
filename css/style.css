@@ -555,6 +555,7 @@ a.project-link:focus:after {
 
 	.project-title {
 		font-size: 18px;
+		text-align: center;
 	}
 
 	.contacts-title {
