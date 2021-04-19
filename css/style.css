@@ -492,7 +492,7 @@ a.project-link:focus:after {
 		height: 123px;
 		border-width: 4px;
 		background-size: 100%;
-		background-position: center top;
+		background-position: center -12px;
 	}
 
 	.hero-title {
