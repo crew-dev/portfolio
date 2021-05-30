@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #20202d;
+	color: #fff;
+	font-family: Roboto;
+	overflow-x: hidden;
+}
+
+.container {
+	margin: auto;
+	width: 90%;
+	max-width: 1000px;
+}
+
+.privacy-section {
+	padding-top: 80px;
+	line-height: 1.6;
+}
+
+.privacy-title {
+	font-size: 30px;
+}
+
+.privacy-subtitle {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-size: 25px;
+}
+
+.privacy-description {
+	margin-bottom: 25px;
+}
+
+.privacy-list {
+	margin-bottom: 16px;
+	padding-left: 28px;
+}
